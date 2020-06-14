@@ -1,0 +1,158 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+  }
+
+body {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+} 
+
+
+.bg-img {
+    background-image: url(/img/garrage.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    height:auto !important; /* cross-browser */
+    height: 100%; /* cross-browser */
+
+}
+}
+.border {
+    border: 5px solid white
+}
+.borderY {
+    border: 1px solid yellow
+}
+.borderR {
+    border: 3px solid #512DA8
+}
+
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 11px;
+    transition: 0.3s;
+    color: gray;
+
+}
+
+a:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+}
+
+.bor {
+
+    border-right: 2px solid darkslategrey;
+}
+
+.custom-button {
+    background-color: transparent;
+    border-color: darkslategray;
+    padding: 2px 8px 2px 8px;
+    margin-top: 10px;
+
+}
+
+.custom-button a { 
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+li {
+    border-color: darkslategray;
+}
+
+.btn-social-icon{
+    background-color: transparent;
+}
+.btn-social-icon:hover{
+    background-color: darkslategrey;
+}
+
+.fa {
+    font-size: 5px;
+}
+
+i {
+    height: 50px;
+    width: 50px;
+}
+
+@media (max-width: 530px) { 
+        
+    .display-1 {
+        font-size: 60px;
+    }
+    button a {
+        font-size: 18px;
+    }
+  }
+  @media (max-width: 768px) { 
+   
+    button a {
+        font-size: 20px;
+    }
+  }
+  @media (max-width: 991px) { 
+   
+    .bor {
+        border-bottom: 2px solid darkslategrey;
+        border-right: none;
+    }
+  }
+  img {
+      height: 150px ;
+      width: 150px;
+  }
+.text1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 29px;
+    color: white;
+    font-weight: bolder;
+  }
+  .text2 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 9px;
+    color: white;
+    line-height: 1.5;
+
+  }
+
+  .text3 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 29px;
+    color: white;
+    font-weight: bolder;
+  }
+  .text4 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    line-height: 2;
+  }
+
+
