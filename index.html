@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styless.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
 </head>
 
-<body style="padding:0px">
+<body style="padding:0px; margin:0%">
     <!-- <div class="jumbotron jumbotron-fluid text-center" style="padding: 0%; margin: 0%;">
         <a href="#" class="navbar-brand"><h1 style="color:white;font-weight: bolder">CARAAMAD</h1></a> 
     </div> -->
@@ -24,14 +24,25 @@
     <!-- <div class="bg-img container-fluid "></div> -->
 
     <div class="container-fluid" style="height: 100vh;">
+        <nav class="px-2 px-md-5 mx-2 mx-md-5 mt-4 mt-md-5 navbar navbar-dark navbar-expand-md ">
+            <a href="#" class="d-none d-md-block navbar-brand pl-sm-5 pl-lg-5 pl-md-3 mx-auto ">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="#" class="d-block d-md-none navbar-brand m-auto pr-5 ">Portfolio</a>
 
+            <div class="mt-4 mt-md-0 collapse navbar-collapse justify-content-end" id="Navbar">
+                <ul class="m-auto mr-0 mr-md-5 navbar-nav w-50 text-center justify-content-between">
+                    <li class="nav-item px-3 px-lg-2"><a class="nav-link" href="#">My Work</a></li>
+                    <li class="nav-item px-3 px-lg-2"><a class="nav-link" href="aboutme.html">About Me</a></li>
+                    <li class="nav-item px-3 px-lg-2"><a class="nav-link" href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class=" d-flex flex-lg-row align-items-center flex-column mx-2 mx-md-5" style="height: 100vh;">
 
-        <div class="d-flex flex-lg-row flex-column" style="height: 100vh;">
-
-            <div class="h-75 my-auto pt-0 pt-lg-4 bor d-flex flex-column justify-content-center col-12 col-lg-4 ">
-                <a href="#" class="navbar-brand mt-4 pt-5 pt-lg-0 mt-lg-0 align-self-center"
-                    style="position: absolute; top:0%;">Portfolio</a>
-                <div class=" row justify-content-center">
+            <div class=" mx-3 h-75 d-flex flex-column justify-content-center col-12 col-lg-4">                
+                <div class="row justify-content-center">
                     <img src="img/user.png" alt="Profile Picture" class="rounded-circle">
                 </div>
                 <div class=" row pt-4 justify-content-center align-items-center">
@@ -42,44 +53,32 @@
                         Applications. <br>Exploring Data Science.
                     </h2>
                 </div>
-                <div class=" row pt-1 justify-content-center align-items-center">
+                <div class=" mb-md-5 mb-0 row pt-1 justify-content-center align-items-center">
                     <button type="button" class="custom-button d-lg-none btn">
                         <a href="#whoami" class="nav-link">Explore</a>
                     </button>
                 </div>
             </div>
-            <div class=" col-12 col-lg-8 d-flex flex-column justify-content-center" id="whoami">
-                <nav class="pl-0 mt-3 mt-lg-5 navbar navbar-dark navbar-expand-md ">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="mt-3 mt-md-0 collapse  navbar-collapse" id="Navbar">
-                        <ul
-                            class="w-100 pt-0 pt-md-4 mb-4 mb-lg-0 text-center navbar-nav d-flex justify-content-center">
-                            <li class=" nav-item px-2 px-md-5"><a class="nav-link" href="#">My Work</a></li>
-                            <li class=" nav-item px-2 px-md-5"><a class="nav-link" href="#">About Me</a></li>
-                            <li class=" nav-item px-2 px-md-5"><a class="nav-link" href="#">Contact Me</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <div class="w-75 row d-flex flex-column mx-auto  my-auto">
-                    <div class="text-center row  mx-auto mx-lg-0 mb-2 ">
-                        <h2 class=" display-5 text3 text-white font-weight-bold">WHO AM I?</h2>
-                    </div>
-                    <div class="row mx-md-auto mx-lg-0 ">
-                        <h5 class="text4 text-center text-lg-left text-white">
-                            I am a student of Computer Science currently in fourth year. <br>
-                            I love to design things primarly websites and logos. <br>
-                            Recently, I have gained interest in Data Sceince, Deep Learning and NLP and have done a few
-                            courses on that. <br>
-                            currently, I want to work as a Front-End web developer and I am also openly looking for
-                            opportunites in Data Science. <br>
-                            Head on to 'My Work' tab to see my end-to-end implementation of Machine Learning projects
-                            and some of my designs.
-                        </h5>
-                    </div>
+            <div class=" h-75 d-flex flex-column justify-content-center col-12 col-lg-8 px-5 pt-lg-5 pt-0 " id="whoami">                
+                <div class="row mx-auto mx-lg-0 ">
+                    <h5 class="text3 text-lg-left text-center">
+                        Who am i?
+                    </h5>
+                </div>
+                <div class="row mx-md-auto mx-lg-0 ">
+                    <h5 class="text4 text-lg-left text-center">
+                        I am a student of Computer Science currently in fourth year. <br>
+                        I love to design things primarly websites and logos. <br>
+                        Recently, I have gained interest in Data Sceince, Deep Learning and NLP and have done a few
+                        courses on that. <br>
+                        currently, I want to work as a Front-End web developer and I am also openly looking for
+                        opportunites in Data Science. <br>
+                        Head on to 'My Work' tab to see my end-to-end implementation of Machine Learning projects
+                        and some of my designs.
+                    </h5>
                 </div>
             </div>
+             
         </div>
     </div>
     <!-- <footer class=" page-footer">
@@ -99,9 +98,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
