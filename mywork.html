@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/mywork.css">
@@ -76,28 +75,21 @@
                 <h5 class=" pb-3 display-3 font-weight-bold text-white">
                     My Designs
                 </h5>
-                <h5 class="pb-2 text4">
-                    I am a student of Computer Science currently in fourth year. <br>
-                    I love to design things primarly websites and logos. <br>
-                    Recently, I have gained interest in Data Sceince, Deep Learning and NLP and have done a few
-                    courses on that. <br>
-                    currently, I want to work as a Front-End web developer and I am also openly looking for
-                    opportunites in Data Science. <br>
-                    Head on to 'My Work' tab to see my end-to-end implementation of Machine Learning projects
-                    and some of my designs.
+                <h5 class="pb-2 text4 d-none d-sm-block">
+                    The following catalogue provides some of my designs. <br> I love to design things primarly websites and logos. <br> Recently, I have gained interest in Data Sceince, Deep Learning and NLP and have done a few courses on that.
+                    <br> currently, I want to work as a Front-End web developer and I am also openly looking for opportunites in Data Science. <br> Head on to 'My Work' tab to see my end-to-end implementation of Machine Learning projects and some of my
+                    designs.
                 </h5>
             </div>
         </div>
         <div class="row">
-            <div class="bor pt-5 pb-5 container">
-                <a data-toggle="modal" data-target="#picmodal" class="pop"><img src="img/FasionPage.png" alt="Fashion"
-                        class=" img-fluid d-block"></a>
+            <div class="bor pt-4 pb-4 pt-md-5 pb-md-5 container">
+                <a data-toggle="modal" data-target="#picmodal" class="pop"><img src="img/FasionPage.png" alt="Fashion" class="img-fluid d-block"></a>
             </div>
         </div>
         <div class="row">
-            <div class="bor pt-5 pb-5 container">
-                <a data-toggle="modal" data-target="#picmodal" class="pop"><img src="img/travelPage.png" alt="Travel"
-                        class=" img-fluid d-block"></a>
+            <div class="bor pt-4 pb-4 pt-md-5 pb-md-5 container">
+                <a data-toggle="modal" data-target="#picmodal" class="pop"><img src="img/travelPage.png" alt="Travel" class=" img-fluid d-block"></a>
             </div>
         </div>
 
@@ -119,17 +111,16 @@
       
       </footer> -->
 
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    
-   
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
-        $(function () {
-            $('.pop').on('click', function () {
+        $(function() {
+            $('.pop').on('click', function() {
                 $('.imagepreview').attr('src', $(this).find('img').attr('src'));
                 $('.imagepreview').attr('alt', $(this).find('img').attr('alt'));
 
