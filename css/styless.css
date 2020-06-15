@@ -155,4 +155,17 @@ i {
     line-height: 2;
   }
 
+.carousel{
+    background: transparent;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    min-height: 100vh;
+    width: 100%;
+}
+
 
