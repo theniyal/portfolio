@@ -150,3 +150,14 @@ a:hover {
         margin: auto;
     }
 }
+
+.burger {
+    width: 30px;
+    height: 2px;
+    background-color: aliceblue;
+    margin-top: 8px;
+}
+
+button:focus {
+    outline: none !important;
+}
