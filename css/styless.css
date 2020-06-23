@@ -156,12 +156,72 @@ img {
 }
 
 .burger {
-    width: 30px;
+    width: 25px;
     height: 2px;
-    background-color: aliceblue;
+    background-color: gray;
     margin-top: 8px;
 }
 
 button:focus {
     outline: none !important;
+}
+
+.heading {
+    animation: jump 1.8s ease infinite forwards;
+}
+
+@keyframes jump {
+    0% {
+        padding-top: 10px
+    }
+    20% {
+        padding-top: 40px
+    }
+    40% {
+        padding-top: 60px;
+    }
+    60% {
+        padding-top: 45px;
+    }
+    80% {
+        padding-top: 55px;
+    }
+    100% {
+        padding-top: 49px;
+    }
+}
+
+.arrow {
+    height: 10px;
+    width: 10px;
+    transform: rotate(45deg);
+    background: none;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    position: absolute;
+    display: flex;
+    align-self: center;
+    margin-top: 55%;
+    /* animation: bubble 1.8s ease infinite forwards; */
+}
+
+@keyframes bubble {
+    0% {
+        top: 50%
+    }
+    20% {
+        top: 40%
+    }
+    40% {
+        top: 50%;
+    }
+    60% {
+        top: 45%;
+    }
+    80% {
+        top: 50%;
+    }
+    100% {
+        top: 49%;
+    }
 }
